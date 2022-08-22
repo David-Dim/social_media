@@ -1,0 +1,24 @@
+
+.content {
+  grid-area: c;
+  background-color: #fff;
+}
+.big-img {
+  height: 200px;
+  width: 100%;
+}
+.ava {
+  border: 2px solid rgb(74, 215, 133);
+  border-top: none;
+  border-left: none;
+  height: 150px;
+
+}
+.ava img {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 0 10px 10px 0;
+
+}
+

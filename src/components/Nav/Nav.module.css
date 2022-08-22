@@ -1,0 +1,24 @@
+.nav {
+  grid-area: n;
+  background: linear-gradient(rgb(74, 215, 133), rgba(20, 152, 75, 0.854));
+  /* background-color:  rgb(74, 215, 133); */
+}
+.item {
+  padding: 5px 30px;
+  cursor: pointer;
+  margin: 5px;
+  
+}
+.item a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  text-shadow: hoff voff blur #000;
+}
+.item a:hover, :active {
+  font-weight: bold;
+  color: rgb(202, 215, 215);
+}
+.item a::after{
+  color: rgb(177, 215, 215);
+}

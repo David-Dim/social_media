@@ -1,0 +1,15 @@
+.item {
+  font-size: 1.2em;
+  display: block;
+}
+.item div {
+  display: inline-block;
+  margin: 0 10px;
+  color: rgb(223, 243, 236);
+  background-color: rgb(144, 197, 143);
+}
+.item img {
+  width: 100px;
+  float: left;
+  border-radius: 30px;
+}

@@ -1,0 +1,16 @@
+
+.posts {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 100px);
+  /* text-align: center; */
+
+}
+button {
+  width: 100px;
+  height: 40px;
+}
+textarea {
+  width: 400px;
+  
+}

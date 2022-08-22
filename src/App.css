@@ -6,7 +6,7 @@
 
 .app-wrapper {
   margin: 0 auto;
-  width: 1200px;
+  width: 100%;
   display: grid;
   grid-template-areas:
     'h h'
@@ -14,45 +14,4 @@
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
   gap: 10px;
-}
-.header {
-  grid-area: h;
-  background-color: rgb(74, 215, 133);
-  box-shadow: rgb(28, 85, 52);
-}
-.header img {
-  width: 60px;
-}
-.nav {
-  grid-area: n;
-  background: linear-gradient(rgb(74, 215, 133), rgba(20, 152, 75, 0.854));
-  /* background-color:  rgb(74, 215, 133); */
-
-}
-.content {
-  grid-area: c;
-  background-color: #fff;
-}
-.ava {
-  border: 2px solid rgb(74, 215, 133);
-  border-top: none;
-  border-left: none;
-  height: 150px;
-}
-.big-img {
-  height: 200px;
-  width: 100%;
-}
-.profile-img1 {
-  width: 150px;
-  height: 150px;
-  float: left;
-  margin: 0 10px 10px 0;
-
-}
-.posts {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 100px);
-  text-align: center;
 }
